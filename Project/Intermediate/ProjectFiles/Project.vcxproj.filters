@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Project.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{D1FF3590-D516-49B6-8B1A-41F83E2F33B2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Project.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ProjectEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{23EB0F0C-AA60-4EDD-9F6B-E3DF2311427D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Project">
+      <UniqueIdentifier>{A15EB0B8-2EA8-4294-9951-2D2CDAAB803C}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Project\Asteroid1.cpp">
+      <Filter>Source\Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project\Asteroid1.h">
+      <Filter>Source\Project</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Project\Project.Build.cs">
+      <Filter>Source\Project</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Project\Project.cpp">
+      <Filter>Source\Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project\Project.h">
+      <Filter>Source\Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Project\ProjectCharacter.cpp">
+      <Filter>Source\Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project\ProjectCharacter.h">
+      <Filter>Source\Project</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Project\ProjectGameMode.cpp">
+      <Filter>Source\Project</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Project\ProjectGameMode.h">
+      <Filter>Source\Project</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Project\CharacterTest.h">
+      <Filter>Source\Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Project\Comet.h">
+      <Filter>Source\Project</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Project\CharacterTest.cpp">
+      <Filter>Source\Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Project\Comet.cpp">
+      <Filter>Source\Project</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
