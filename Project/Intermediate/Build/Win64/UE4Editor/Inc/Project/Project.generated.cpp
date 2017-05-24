@@ -13,6 +13,10 @@ void EmptyLinkFunctionForGeneratedCodeProject() {}
 	{
 	}
 	IMPLEMENT_CLASS(AAsteroid1, 568146580);
+	void ABoundsBox::StaticRegisterNativesABoundsBox()
+	{
+	}
+	IMPLEMENT_CLASS(ABoundsBox, 3286814386);
 	void ACharacterTest::StaticRegisterNativesACharacterTest()
 	{
 	}
@@ -42,6 +46,8 @@ void EmptyLinkFunctionForGeneratedCodeProject() {}
 
 	PROJECT_API class UClass* Z_Construct_UClass_AAsteroid1_NoRegister();
 	PROJECT_API class UClass* Z_Construct_UClass_AAsteroid1();
+	PROJECT_API class UClass* Z_Construct_UClass_ABoundsBox_NoRegister();
+	PROJECT_API class UClass* Z_Construct_UClass_ABoundsBox();
 	PROJECT_API class UClass* Z_Construct_UClass_ACharacterTest_NoRegister();
 	PROJECT_API class UClass* Z_Construct_UClass_ACharacterTest();
 	PROJECT_API class UClass* Z_Construct_UClass_AComet_NoRegister();
@@ -91,6 +97,37 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	}
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AAsteroid1(Z_Construct_UClass_AAsteroid1, TEXT("AAsteroid1"));
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AAsteroid1);
+	UClass* Z_Construct_UClass_ABoundsBox_NoRegister()
+	{
+		return ABoundsBox::StaticClass();
+	}
+	UClass* Z_Construct_UClass_ABoundsBox()
+	{
+		static UClass* OuterClass = NULL;
+		if (!OuterClass)
+		{
+			Z_Construct_UClass_AActor();
+			Z_Construct_UPackage_Project();
+			OuterClass = ABoundsBox::StaticClass();
+			if (!(OuterClass->ClassFlags & CLASS_Constructed))
+			{
+				UObjectForceRegistration(OuterClass);
+				OuterClass->ClassFlags |= 0x20900080;
+
+
+				OuterClass->StaticLink();
+#if WITH_METADATA
+				UMetaData* MetaData = OuterClass->GetOutermost()->GetMetaData();
+				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("BoundsBox.h"));
+				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("BoundsBox.h"));
+#endif
+			}
+		}
+		check(OuterClass->GetClass());
+		return OuterClass;
+	}
+	static FCompiledInDefer Z_CompiledInDefer_UClass_ABoundsBox(Z_Construct_UClass_ABoundsBox, TEXT("ABoundsBox"));
+	DEFINE_VTABLE_PTR_HELPER_CTOR(ABoundsBox);
 	UClass* Z_Construct_UClass_ACharacterTest_NoRegister()
 	{
 		return ACharacterTest::StaticClass();
@@ -261,8 +298,8 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Project")), false, false));
 			ReturnPackage->PackageFlags |= PKG_CompiledIn | 0x00000000;
 			FGuid Guid;
-			Guid.A = 0x03238A7E;
-			Guid.B = 0x2E966032;
+			Guid.A = 0xD130AA4F;
+			Guid.B = 0x75AD2A1D;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;
 			ReturnPackage->SetGuid(Guid);
