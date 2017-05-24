@@ -460,8 +460,8 @@ C:\Program Files\Epic Games\UE_4.9\Engine\Plugins\ScriptGeneratorPlugin\Source\S
 C:\Program Files\Epic Games\UE_4.9\Engine\Plugins\ScriptPlugin\Source\ScriptEditorPlugin\ScriptEditorPlugin.Build.cs
 C:\Program Files\Epic Games\UE_4.9\Engine\Plugins\ScriptPlugin\Source\ScriptPlugin\ScriptPlugin.Build.cs
 C:\Program Files\Epic Games\UE_4.9\Engine\Plugins\Slate\SlateRemote\Source\SlateRemote\SlateRemote.Build.cs
-C:\Users\ericn\OneDrive\Documents\GitHub\Project2\Project\Source\Project\Project.Build.cs
+C:\Users\Jacob\Documents\GitHub\Project2\Project\Source\Project\Project.Build.cs
 C:\Program Files\Epic Games\UE_4.9\Engine\Source\UE4Editor.Target.cs
 C:\Program Files\Epic Games\UE_4.9\Engine\Source\UE4Game.Target.cs
-C:\Users\ericn\OneDrive\Documents\GitHub\Project2\Project\Source\Project.Target.cs
-C:\Users\ericn\OneDrive\Documents\GitHub\Project2\Project\Source\ProjectEditor.Target.cs
+C:\Users\Jacob\Documents\GitHub\Project2\Project\Source\Project.Target.cs
+C:\Users\Jacob\Documents\GitHub\Project2\Project\Source\ProjectEditor.Target.cs
